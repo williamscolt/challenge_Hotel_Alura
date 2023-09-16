@@ -1,8 +1,8 @@
-# challenge_Hotel_Alura
+# Challenge Hotel Alura
 
-Esta aplicacion es sobre el Hotel Alura, en donde se creo
+Esta aplicacion es sobre el Hotel Alura, 
 
-Sistema de autenticación de usuario para que solo usuarios pertenecientes al hotel consigan acceder al sistema;
+Aqui es donde se creo un Sistema de autenticación de usuario para que solo usuarios pertenecientes al hotel consigan acceder al sistema;
 Permitir crear, editar y eliminar una reserva para los clientes;
 Buscar en la base de datos todas las informaciones tanto de los clientes como de las reservas;
 Registrar, editar y eliminar datos de los huéspedes;
