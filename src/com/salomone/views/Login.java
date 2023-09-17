@@ -215,7 +215,7 @@ public class Login extends JFrame {
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1.setIcon(new ImageIcon(Login.class.getResource("/imagenes/lOGO-50PX.png")));
-		lblNewLabel_1.setBounds(65, 65, 48, 59);
+		lblNewLabel_1.setBounds(65, 65, 61, 73);
 		panel.add(lblNewLabel_1);
 		
 		JPanel header = new JPanel();
@@ -268,7 +268,7 @@ public class Login extends JFrame {
 	    // Definir aquí los usuarios fijos y sus contraseñas
 	    String[][] usuariosFijos = {
 	        {"admin", "admin"},
-	        {"carlos", "12345"},
+	        {"Carlos", "12345"},
 	        {"Danny", "23456"}
 	        // Agregar más usuarios aquí
 	    };
