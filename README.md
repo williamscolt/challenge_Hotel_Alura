@@ -12,6 +12,7 @@ todo esto es hecho automaticamente y mostrado al usuario antes de guardar la res
 Base de datos para almacenar todos los datos pedidos anteriormente.
 
 para ingresar al login se inicia con:
+
 1- Usuario = admin 
    Password = admin
 
