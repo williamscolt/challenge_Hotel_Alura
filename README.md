@@ -14,10 +14,13 @@ Base de datos para almacenar todos los datos pedidos anteriormente.
 para ingresar al login se inicia con:
 
 1- Usuario = admin 
+
    Password = admin
 
 2- Usuario = Carlos
+
    Password = 12345
 
-3- Usuario = Danny 
+3- Usuario = Danny
+
    Password = 23456
