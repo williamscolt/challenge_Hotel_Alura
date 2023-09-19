@@ -26,6 +26,9 @@ public class HuespedesController {
 		public List<Huespedes> listarHuespedesId(String id) {
 			return this.huespedDAO.buscarId(id);
 		}
+		public List<Huespedes> listarHuespedesApellido(String apellido) {
+			return this.huespedDAO.buscarApellido(apellido);
+		}
 		
 		public void actualizar(String nombre, String apellido, Date fechaN, String nacionalidad, String telefono, Integer id_Reserva, Integer id) {
 			this.huespedDAO.Actualizar(nombre, apellido, fechaN, nacionalidad, telefono, id_Reserva, id);

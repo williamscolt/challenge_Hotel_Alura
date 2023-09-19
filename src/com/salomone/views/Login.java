@@ -1,6 +1,7 @@
 package com.salomone.views;
 
 import java.awt.Color;
+
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.SystemColor;
@@ -9,7 +10,6 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
 
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
@@ -200,7 +200,7 @@ public class Login extends JFrame {
 			}
 		});
 		btnLogin.setBackground(SystemColor.textHighlight);
-		btnLogin.setBounds(65, 431, 122, 44);
+		btnLogin.setBounds(170, 431, 122, 44);
 		panel.add(btnLogin);
 		btnLogin.setLayout(null);
 		btnLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -236,18 +236,6 @@ public class Login extends JFrame {
 		header.setBounds(0, 0, 784, 36);
 		panel.add(header);
 		header.setLayout(null);
-		
-		JButton btnNewButton = new JButton("REGISTRAR");
-		btnNewButton.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent e) {
-				
-			}
-		});
-		btnNewButton.setForeground(new Color(0, 128, 255));
-		btnNewButton.setFont(new Font("Dialog", Font.PLAIN, 18));
-		btnNewButton.setBounds(249, 431, 140, 44);
-		panel.add(btnNewButton);
 	}
 	
 	

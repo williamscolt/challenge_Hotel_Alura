@@ -78,6 +78,24 @@ private Connection connection;
 		}
 	}
 	
+	public List<Huespedes> buscarApellido(String apellido) {
+		List<Huespedes> huespedes = new ArrayList<Huespedes>();
+		try {
+
+			String sql = "SELECT id, nombre, apellido, fechaN, nacionalidad, telefono, id_Reserva FROM huespedes WHERE apellido = ?";
+
+			try (PreparedStatement pstm = connection.prepareStatement(sql)) {
+				pstm.setString(1, apellido);
+				pstm.execute();
+
+				transformarResultSetEnHuesped(huespedes, pstm);
+			}
+			return huespedes;
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+	}
+	
 	public void Actualizar(String nombre, String apellido, Date fechaN, String nacionalidad, String telefono, Integer id_Reserva, Integer id) {
 		try (PreparedStatement stm = connection
 				.prepareStatement("UPDATE huespedes SET nombre = ?, apellido = ?, fechaN = ?, nacionalidad = ?, telefono = ?, id_Reserva = ? WHERE id = ?")) {
