@@ -10,3 +10,13 @@ Calcula el valor de la reserva en base a la cantidades de días de la reserva y 
 en la moneda local de tu país, 
 todo esto es hecho automaticamente y mostrado al usuario antes de guardar la reserva en una
 Base de datos para almacenar todos los datos pedidos anteriormente.
+
+para ingresar al login se inicia con:
+1- Usuario = admin 
+   Password = admin
+
+2- Usuario = Carlos
+   Password = 12345
+
+3- Usuario = Danny 
+   Password = 23456
